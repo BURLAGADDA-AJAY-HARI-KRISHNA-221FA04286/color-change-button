@@ -1,0 +1,46 @@
+/* Centering the container and setting full height */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f0f0f0; /* Optional background color for contrast */
+}
+
+.container {
+    padding: 40px; /* Increased padding */
+    border: 3px solid black; /* Increased border width */
+    background-color: lightblue;
+    text-align: center; /* Center text inside container */
+    border-radius: 15px; /* Rounded corners for the container */
+    width: 300px; /* Set a fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for container */
+}
+
+.changed {
+    background-color: rgb(203, 235, 22);
+}
+
+button {
+    width: 100px; /* Set width */
+    height: 100px; /* Set height to match width */
+    border: none; /* Remove default border */
+    border-radius: 50%; /* Makes the button round */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Change cursor on hover */
+    outline: none; /* Remove default focus outline */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for button */
+    display: flex; /* Use flexbox to center the text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center; /* Center text inside button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
